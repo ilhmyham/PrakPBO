@@ -56,7 +56,7 @@ public class Tugas2 extends JFrame implements ActionListener{
         
     }
     
-    public void aksi(ActionEvent e){
+    public void actionPerformed(ActionEvent e){
         if (e.getSource() == red) {
             f.getContentPane().setBackground(Color.red);
         }else if (e.getSource() == yellow) {
